@@ -48,11 +48,11 @@ def jogar():
         print(senha)
    
         if senha == palavra:
-            print("Winner Winner Chicken Dinner")
+            print(".")
             break
     
-        print("(1) Chutar letra")
-        print("(2) Pedir dica")
+        print("1- Chutar letra")
+        print("2- Pedir dica")
         op = input()
         if op == "1":
             print()
