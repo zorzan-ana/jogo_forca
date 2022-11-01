@@ -48,7 +48,7 @@ def jogar():
         print(senha)
    
         if senha == palavra:
-            print(".")
+            print("<3")
             break
     
         print("1- Chutar letra")
@@ -70,7 +70,7 @@ def jogar():
                 dica += 1 
             
             else:
-                print("Você já solicitou todas as dicas do jogo! ):")
+                print("Você já solicitou todas as dicas do jogo!")
                 dica += 1
 
         tentativa = input("Digite uma letra: ").lower().strip()       
